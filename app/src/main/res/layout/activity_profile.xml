@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/profileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/profile_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/profileNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/profile_name_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileNameText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileNameText" />
+
+    <TextView
+        android:id="@+id/profileNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/profileNameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileText" />
+
+    <TextView
+        android:id="@+id/profileEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_email_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileEmailText"
+        app:layout_constraintStart_toStartOf="@+id/profileNameLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileEmailText" />
+
+    <TextView
+        android:id="@+id/profileEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileEmailLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileNameText" />
+
+    <TextView
+        android:id="@+id/profileRoleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_role_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileRoleText"
+        app:layout_constraintStart_toStartOf="@+id/profileEmailLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileRoleText" />
+
+    <TextView
+        android:id="@+id/profileRoleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileRoleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileEmailText" />
+
+    <TextView
+        android:id="@+id/profileEducationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/education_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileEducationText"
+        app:layout_constraintStart_toStartOf="@+id/profileRoleLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileEducationText" />
+
+    <TextView
+        android:id="@+id/profileEducationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileEducationLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileRoleText" />
+
+    <TextView
+        android:id="@+id/profileMaritalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marital_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileMaritalStatusText"
+        app:layout_constraintStart_toStartOf="@+id/profileEducationLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileMaritalStatusText" />
+
+    <TextView
+        android:id="@+id/profileMaritalStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileMaritalLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileEducationText" />
+
+    <TextView
+        android:id="@+id/profileLivingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/living_status_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileLivingStatusText"
+        app:layout_constraintStart_toStartOf="@+id/profileMaritalLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileLivingStatusText" />
+
+    <TextView
+        android:id="@+id/profileLivingStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileLivingLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileMaritalStatusText" />
+
+    <TextView
+        android:id="@+id/profileIncomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/profileIncomeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileLivingStatusText" />
+
+    <TextView
+        android:id="@+id/profileIncomeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/income_label"
+        app:layout_constraintBottom_toBottomOf="@+id/profileIncomeText"
+        app:layout_constraintStart_toStartOf="@+id/profileLivingLabel"
+        app:layout_constraintTop_toTopOf="@+id/profileIncomeText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

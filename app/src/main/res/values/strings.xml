@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">User_Profile_With_Intents</string>
+    <string name="welcome_label">Welcome !!</string>
+    <string name="start_label">Start</string>
+    <string name="identification_label">Identification Info</string>
+    <string name="name_label">Name :</string>
+    <string name="email_label">Email :</string>
+    <string name="role_label">Role :</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="student_label">Student</string>
+    <string name="employee_label">Employee</string>
+    <string name="other_radio">Other</string>
+    <string name="next_label">Next</string>
+    <string name="demographic_text">Demographic Info</string>
+    <string name="select_label">Select</string>
+    <string name="education_label">Education:</string>
+    <string name="marital_label">Marital Status:</string>
+    <string name="living_status_label">Living Status:</string>
+    <string name="income_label">Income:</string>
+    <string name="education_text">Select Education Level</string>
+    <string name="education_question">What is the highest degree or level of\neducation you have completed?</string>
+    <string name="below_high_school_radio">Below High School</string>
+    <string name="high_school_radio">High School</string>
+    <string name="bachelors_radio">Bachelor\'s Degree</string>
+    <string name="masters_radio">Master\'s Degree</string>
+    <string name="phd_radio">Ph.D. or higher</string>
+    <string name="trade_radio">Trade School</string>
+    <string name="prefer_radio">Prefer not to say</string>
+    <string name="marital_status_text">Select Marital Status</string>
+    <string name="marital_status_question">What is your marital status ?</string>
+    <string name="not_married_radio">Not Married</string>
+    <string name="married_radio">Married</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="living_status_text">Select Living Status</string>
+    <string name="living_status_question">Which of the following describes your living status?</string>
+    <string name="home_owner_radio">Homeowner</string>
+    <string name="renter_radio">Renter</string>
+    <string name="lessee_radio">Lessee</string>
+    <string name="household_text">Household Income</string>
+    <string name="profile_text">Profile</string>
+    <string name="profile_name_label">Name:</string>
+    <string name="profile_email_label">Email:</string>
+    <string name="profile_role_label">Role:</string>
+    <string-array name="incomeRangeValues">
+        <item><![CDATA[<$25K]]></item>
+        <item><![CDATA[$25K to <$50K]]></item>
+        <item><![CDATA[$50K to <$100K]]></item>
+        <item><![CDATA[$100K to <$200K]]></item>
+        <item><![CDATA[>$200K]]></item>
+    </string-array>
+</resources>
