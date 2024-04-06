@@ -1,4 +1,4 @@
-# User Profile Android App README
+# User Profile Android App
 
 ## Introduction
 This Android application is designed to collect user information through a series of activities, including Identification, Demographic, and Profile activities. The application guides the user through inputting various personal details and displays the collected information in the Profile activity.
